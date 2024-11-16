@@ -11,6 +11,8 @@ function TimeDisplay() {
     return () => clearInterval(intervalId); // Cleanup the interval when the component unmounts
   }, []);
 
+  //sda;lfnsd
+
   return <h2>Current Time: {currentTime}</h2>;
 }
 
