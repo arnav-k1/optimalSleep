@@ -83,11 +83,11 @@ function App() {
       </button>
       {showlongNapTime && <h3>Optimal long Nap Time: {optimallongNapTime}</h3>}
 
-      {showsleepTime && <h3>Optimal sleep Time: {optimalsleepTime}</h3>}
       <button onClick={handleTogglesleepTime}>
         {" "}
         {showsleepTime ? "Hide Optimal sleep Time" : "Show Optimal sleep Time"}
       </button>
+      {showsleepTime && <h3>Optimal sleep Time: {optimalsleepTime}</h3>}
     </div>
   );
 }
